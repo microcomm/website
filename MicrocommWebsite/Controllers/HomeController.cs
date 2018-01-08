@@ -15,6 +15,7 @@ namespace MicrocommWebsite.Controllers
             return View();
         }
 
+        [Route("about")]
         public IActionResult About()
         {
             ViewData["Message"] = "The 'About' page";
@@ -22,6 +23,7 @@ namespace MicrocommWebsite.Controllers
             return View();
         }
 
+        [Route("contact")]
         public IActionResult Contact()
         {
             ViewData["Message"] = "The contact page.";
@@ -29,12 +31,20 @@ namespace MicrocommWebsite.Controllers
             return View();
         }
 
+
         public IActionResult Solutions()
         {
             ViewData["Message"] = "The 'Solutions' page.";
 
             return View();
+        }
 
+        [Route("blog")]
+        public IActionResult Blog()
+        {
+            ViewData["Message"] = "The 'Blog' page.";
+
+            return View();
         }
 
         public IActionResult Error()
