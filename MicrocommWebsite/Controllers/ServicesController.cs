@@ -6,40 +6,40 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MicrocommWebsite.Models;
 
+
 namespace MicrocommWebsite.Controllers
 {
-    public class HomeController : Controller
+    public class ServicesController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult SoftwareDevelopment()
         {
-            ViewData["Message"] = "The 'About' page";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult BusinessIntelligence()
         {
-            ViewData["Message"] = "The contact page.";
-
             return View();
         }
 
-        public IActionResult Solutions()
+        public IActionResult InfrastructureEngineering()
         {
-            ViewData["Message"] = "The 'Solutions' page.";
-
             return View();
-
         }
 
-        public IActionResult Error()
+        public IActionResult NetworkDesign()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+
+        public IActionResult PortfolioManagement()
+        {
+            return View();
+        }
+
     }
 }

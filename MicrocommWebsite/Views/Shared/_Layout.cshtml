@@ -26,12 +26,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">MicrocommWebsite</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Home</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li class="dropdown">
+                        <a asp-controller="Home" asp-action="Index" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Services" asp-action="SoftwareDevelopment">Software Development</a></li>
+                            <li><a asp-area="" asp-controller="Services" asp-action="BusinessIntelligence">Business Intelligence</a></li>
+                            <li><a asp-area="" asp-controller="Services" asp-action="InfrastructureEngineering">Infrastructure Engineering</a></li>
+                            <li><a asp-area="" asp-controller="Services" asp-action="NetworkDesign">Network Design</a></li>
+                            <li><a asp-area="" asp-controller="Services" asp-action="PortfolioManagement">Portfolio Management</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Solutions">Blog</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
             </div>
