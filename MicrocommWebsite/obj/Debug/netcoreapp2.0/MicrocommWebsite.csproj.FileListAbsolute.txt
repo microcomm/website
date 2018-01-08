@@ -1,0 +1,11 @@
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\bin\Debug\netcoreapp2.0\MicrocommWebsite.deps.json
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\bin\Debug\netcoreapp2.0\MicrocommWebsite.runtimeconfig.json
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\bin\Debug\netcoreapp2.0\MicrocommWebsite.runtimeconfig.dev.json
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\bin\Debug\netcoreapp2.0\MicrocommWebsite.dll
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\bin\Debug\netcoreapp2.0\MicrocommWebsite.pdb
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.csprojResolveAssemblyReference.cache
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.csproj.CoreCompileInputs.cache
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.AssemblyInfoInputs.cache
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.AssemblyInfo.cs
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.dll
+C:\Users\csweet\Source\Repos\website\MicrocommWebsite\obj\Debug\netcoreapp2.0\MicrocommWebsite.pdb
